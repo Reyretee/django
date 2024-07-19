@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 # Create your views here.
-def home(req):
-    return HttpResponse('main page')
-def cass(req):
-    return HttpResponse('cass page')
+def list(req):
+    return HttpResponse("list page")
+def store(req):
+    return HttpResponse("store page")
