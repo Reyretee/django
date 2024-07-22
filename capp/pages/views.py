@@ -8,3 +8,5 @@ def about(req):
     return HttpResponse("about page")
 def home(req):
     return HttpResponse("home page")
+def test(req):
+    return HttpResponse("test page")
